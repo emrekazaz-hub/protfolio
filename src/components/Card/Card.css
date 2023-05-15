@@ -1,0 +1,19 @@
+.card-header {
+    color: aliceblue;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 5%;
+    padding-top: 10%;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+.btnn{
+  gap: 5px;
+}
+
+  
+  
