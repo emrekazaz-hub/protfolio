@@ -1,13 +1,13 @@
 const Navigation = () => {
   return (
     <div>
-      <nav style={{ paddingBottom: "2%" , paddingTop : "1%"}}>
+      <nav>
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <a
               class="nav-link active nav-ul-li-a-color"
               aria-current="page"
-              href="#"
+              href="#toAbout"
             >
               About
             </a>
@@ -26,6 +26,8 @@ const Navigation = () => {
             <a class="nav-link nav-ul-li-a-color" href="#toContact">
               Contact
             </a>
+          </li>
+          <li>
           </li>
         </ul>
       </nav>

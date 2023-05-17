@@ -1,0 +1,19 @@
+.card-header-education{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    font-size: 69px;
+    padding-top: 10%;
+  }
+  
+  .education-content {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+  }
+  
+  .education-image {
+    width: 300px;
+    height: 300px;
+  }
+  
