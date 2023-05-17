@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/protfolio/static/css/main.0c40dcc7.css",
-    "main.js": "/protfolio/static/js/main.87e1db6e.js",
+    "main.css": "/protfolio/static/css/main.4e88a6c7.css",
+    "main.js": "/protfolio/static/js/main.2edd9067.js",
     "static/js/787.e8c6061e.chunk.js": "/protfolio/static/js/787.e8c6061e.chunk.js",
+    "static/media/preview-420578-lh4fg3eD1g-high.mp4": "/protfolio/static/media/preview-420578-lh4fg3eD1g-high.861076758164553b0a07.mp4",
+    "static/media/CLOTH-TEST4.mp4": "/protfolio/static/media/CLOTH-TEST4.d847ca8f7fed8dc8da0c.mp4",
     "static/media/1194463.jpg": "/protfolio/static/media/1194463.2853d7b83e3a52c452e9.jpg",
     "static/media/wallpaperflare.com_wallpaper (6).jpg": "/protfolio/static/media/wallpaperflare.com_wallpaper (6).407251a7c885867b1ff9.jpg",
     "static/media/422108-artwork-fantasy-art-ArtStation-Zed-League-of-Legends.jpg": "/protfolio/static/media/422108-artwork-fantasy-art-ArtStation-Zed-League-of-Legends.23027ea70f3dad77a428.jpg",
     "static/media/robofrinedsimage.png": "/protfolio/static/media/robofrinedsimage.3e63ff180e52dee859c6.png",
+    "static/media/IMG_20230402_043628_864.jpg": "/protfolio/static/media/IMG_20230402_043628_864.5034a7500333dd9df05f.jpg",
     "static/media/woox-low-resolution-color-logo.png": "/protfolio/static/media/woox-low-resolution-color-logo.3edc0556db4918a165f0.png",
     "static/media/marketingLowRez.png": "/protfolio/static/media/marketingLowRez.44af2b863b767ac3264b.png",
     "static/media/LoL-Capsula-Prime-Gaming-2023.jpg": "/protfolio/static/media/LoL-Capsula-Prime-Gaming-2023.b16ecc32fe36fc44506a.jpg",
@@ -16,12 +19,12 @@
     "static/media/abc-low-resolution-logo-black-on-white-background.png": "/protfolio/static/media/abc-low-resolution-logo-black-on-white-background.b59d9bf9cdb1f08e22cc.png",
     "static/media/hmm.png": "/protfolio/static/media/hmm.3a5359fa3e6d5a030427.png",
     "index.html": "/protfolio/index.html",
-    "main.0c40dcc7.css.map": "/protfolio/static/css/main.0c40dcc7.css.map",
-    "main.87e1db6e.js.map": "/protfolio/static/js/main.87e1db6e.js.map",
+    "main.4e88a6c7.css.map": "/protfolio/static/css/main.4e88a6c7.css.map",
+    "main.2edd9067.js.map": "/protfolio/static/js/main.2edd9067.js.map",
     "787.e8c6061e.chunk.js.map": "/protfolio/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c40dcc7.css",
-    "static/js/main.87e1db6e.js"
+    "static/css/main.4e88a6c7.css",
+    "static/js/main.2edd9067.js"
   ]
 }
