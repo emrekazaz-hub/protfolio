@@ -1,7 +1,43 @@
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import "./Contact.css";
+import React, {useEffect, useState} from "react";
+import bgimage from "../Images/ezgif-3-5370643a50.gif";
+
 const PDF_FILE_URL = "http://localhost:3000/cvbeta.pdf";
 
+
 const Contact = () => {
+
+const [inputEmail , setInputEmail] = useState("");
+const [inputText , setInputText] = useState("");
+
+const inputListenerEmail = (e) =>{
+  const valueEmail = e.target.value;
+  setInputEmail(valueEmail);
+};
+
+const inputListenerText = (e) =>{
+  const valueText = e.target.value;
+  setInputText(valueText);
+};
+
+useEffect(() => {
+  if (inputEmail !== "") {
+    console.log("email: ", inputEmail);
+  }
+}, [inputEmail]);
+
+useEffect(() => {
+  if (inputText !== "") {
+    console.log("text: ", inputText);
+  }
+}, [inputText]);
+
+const buttonCLickListener = (e) => {
+  console.log("email : ", inputEmail + "\ntext : " , inputText);
+}
+
+
   const handleDownload = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
@@ -14,27 +50,27 @@ const Contact = () => {
   
   return (
     <section
-    style={{paddingTop: "10%"}}
       id="toContact"
-      className="container contact-syle"
+      className="container contact-syle bg"
     >
       <header className="card-header">Contact Me</header>
       <div className="container">
         <div class="mb-3">
           <label
             for="exampleFormControlInput1"
-            class="form-label form-labe-color"
+            className="form-label form-labe-color"
           >
             Email address
           </label>
           <input
             type="email"
-            class="form-control"
+            className="form-control"
             id="exampleFormControlInput1"
-            placeholder="name@example.com"
+            placeholder="emrekzz@outlook.com"
+            onChange={inputListenerEmail}
           />
         </div>
-        <div class="mb-3">
+        <div className="mb-3">
           <label
             for="exampleFormControlTextarea1"
             class="form-label form-labe-color"
@@ -42,13 +78,14 @@ const Contact = () => {
             Example textarea
           </label>
           <textarea
-            class="form-control"
+            className="form-control"
             id="exampleFormControlTextarea1"
-            placeholder="Herhangi bisey yaz"
+            placeholder="Send message.."
             rows="3"
+            onChange={inputListenerText}
           ></textarea>
           <div className="d-flex justify-content-center button-padding gap-5">
-            <button type="button" class="btn btn-color">
+            <button onClick={buttonCLickListener} type="button" class="btn btn-color">
               Send
             </button>
             <button

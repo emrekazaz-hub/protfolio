@@ -7,14 +7,14 @@ const Navigation = () => {
             <a
               class="nav-link active nav-ul-li-a-color"
               aria-current="page"
-              href="#toAbout"
+              href="#toHome"
             >
-              About
+              Home
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-ul-li-a-color" href="#toEducation">
-              Education
+            <a class="nav-link nav-ul-li-a-color" href="#toAbout">
+              About
             </a>
           </li>
           <li class="nav-item">

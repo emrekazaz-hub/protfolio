@@ -5,7 +5,7 @@ import "./Video.css";
 
 const Video = forwardRef((props, ref) => {
   return (
-    <div className="video-container">
+    <div id="toHome" className="video-container">
       <video ref={ref} autoPlay loop muted>
         <source src={video2} type="video/mp4" />
       </video>

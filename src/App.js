@@ -43,7 +43,6 @@ function App() {
         <Video ref={videoRef} />
         {/*<Slide />*/}
         <About />
-        <Education />
         <Card2 />
         <Contact />
         <Icon />

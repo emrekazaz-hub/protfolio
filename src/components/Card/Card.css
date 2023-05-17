@@ -25,4 +25,8 @@
   color: aliceblue;
 }
 
+.gap{
+  display: block;
+  gap: 5px;
+}
   

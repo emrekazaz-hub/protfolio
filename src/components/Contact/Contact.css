@@ -12,10 +12,12 @@
 }
 
 .form-labe-color{
-    color: aliceblue;
+    color: rgb(255, 240, 252);
 }
 
-.btn-color {
-    background-color: #9146ff;
-    color: aliceblue;
-  }
+
+.bg{
+    background-image: url("C:\Users\emre_\Desktop\ezgif-3-5370643a50.gif");
+    background-size: cover;
+}
+

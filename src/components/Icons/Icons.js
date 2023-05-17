@@ -12,9 +12,6 @@ const Icon = () => {
         <a className="icon-facebook " href="https://www.linkedin.com/in/emre-kazaz/">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a className="icon-facebook " href="emrekzz@outlook.com">
-          <FontAwesomeIcon icon={faMicrosoft} />
-        </a>
       </div>
     </div>
   );
