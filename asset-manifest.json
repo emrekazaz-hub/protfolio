@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/protfolio/static/css/main.4e88a6c7.css",
-    "main.js": "/protfolio/static/js/main.2edd9067.js",
+    "main.css": "/protfolio/static/css/main.9907571d.css",
+    "main.js": "/protfolio/static/js/main.d35bb82f.js",
     "static/js/787.e8c6061e.chunk.js": "/protfolio/static/js/787.e8c6061e.chunk.js",
+    "static/media/ezgif-3-5370643a50.gif": "/protfolio/static/media/ezgif-3-5370643a50.1147088282bdfd3fb522.gif",
     "static/media/preview-420578-lh4fg3eD1g-high.mp4": "/protfolio/static/media/preview-420578-lh4fg3eD1g-high.861076758164553b0a07.mp4",
     "static/media/CLOTH-TEST4.mp4": "/protfolio/static/media/CLOTH-TEST4.d847ca8f7fed8dc8da0c.mp4",
     "static/media/1194463.jpg": "/protfolio/static/media/1194463.2853d7b83e3a52c452e9.jpg",
@@ -19,12 +20,12 @@
     "static/media/abc-low-resolution-logo-black-on-white-background.png": "/protfolio/static/media/abc-low-resolution-logo-black-on-white-background.b59d9bf9cdb1f08e22cc.png",
     "static/media/hmm.png": "/protfolio/static/media/hmm.3a5359fa3e6d5a030427.png",
     "index.html": "/protfolio/index.html",
-    "main.4e88a6c7.css.map": "/protfolio/static/css/main.4e88a6c7.css.map",
-    "main.2edd9067.js.map": "/protfolio/static/js/main.2edd9067.js.map",
+    "main.9907571d.css.map": "/protfolio/static/css/main.9907571d.css.map",
+    "main.d35bb82f.js.map": "/protfolio/static/js/main.d35bb82f.js.map",
     "787.e8c6061e.chunk.js.map": "/protfolio/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e88a6c7.css",
-    "static/js/main.2edd9067.js"
+    "static/css/main.9907571d.css",
+    "static/js/main.d35bb82f.js"
   ]
 }
