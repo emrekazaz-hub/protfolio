@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/protfolio/static/css/main.9907571d.css",
-    "main.js": "/protfolio/static/js/main.d35bb82f.js",
+    "main.css": "/protfolio/static/css/main.a7dcd71f.css",
+    "main.js": "/protfolio/static/js/main.e6f6ba4c.js",
     "static/js/787.e8c6061e.chunk.js": "/protfolio/static/js/787.e8c6061e.chunk.js",
     "static/media/ezgif-3-5370643a50.gif": "/protfolio/static/media/ezgif-3-5370643a50.1147088282bdfd3fb522.gif",
     "static/media/preview-420578-lh4fg3eD1g-high.mp4": "/protfolio/static/media/preview-420578-lh4fg3eD1g-high.861076758164553b0a07.mp4",
@@ -20,12 +20,12 @@
     "static/media/abc-low-resolution-logo-black-on-white-background.png": "/protfolio/static/media/abc-low-resolution-logo-black-on-white-background.b59d9bf9cdb1f08e22cc.png",
     "static/media/hmm.png": "/protfolio/static/media/hmm.3a5359fa3e6d5a030427.png",
     "index.html": "/protfolio/index.html",
-    "main.9907571d.css.map": "/protfolio/static/css/main.9907571d.css.map",
-    "main.d35bb82f.js.map": "/protfolio/static/js/main.d35bb82f.js.map",
+    "main.a7dcd71f.css.map": "/protfolio/static/css/main.a7dcd71f.css.map",
+    "main.e6f6ba4c.js.map": "/protfolio/static/js/main.e6f6ba4c.js.map",
     "787.e8c6061e.chunk.js.map": "/protfolio/static/js/787.e8c6061e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9907571d.css",
-    "static/js/main.d35bb82f.js"
+    "static/css/main.a7dcd71f.css",
+    "static/js/main.e6f6ba4c.js"
   ]
 }
