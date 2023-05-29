@@ -8,6 +8,7 @@ import Contact from "./components/Contact/Contact";
 import Icon from "./components/Icons/Icons";
 import Video from "./components/Video/Video";
 import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 import React, { useEffect, useRef } from "react";
 
 function App() {
@@ -44,8 +45,9 @@ function App() {
         {/*<Slide />*/}
         <About />
         <Card2 />
-        <Contact />
+        {/*<Contact />*/}
         <Icon />
+        <Footer />
       </main>
     </div>
   );

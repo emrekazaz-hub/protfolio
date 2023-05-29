@@ -1,12 +1,43 @@
+import React, { useEffect, useRef } from "react";
 import "./About.css";
 import myImage from "../Images/IMG_20230402_043628_864.jpg";
 
 const About = () => {
+  const educationContentRef = useRef(null);
+
+  useEffect(() => {
+    const educationContent = educationContentRef.current;
+    const paragraph = educationContent.querySelector(".education-p-tag");
+
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + window.innerHeight;
+      const windowHeight = window.innerHeight;
+
+      if (
+        educationContent.offsetTop < scrollPosition &&
+        educationContent.offsetTop > scrollPosition - windowHeight
+      ) {
+        educationContent.classList.add("animate");
+        paragraph.classList.add("animate");
+      } else {
+        educationContent.classList.remove("animate");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <section id="toAbout" className="container">
-      <div style={{ paddingTop: "20%"}} className="grup-education-div">
-        <header className="card-header-education">About Me</header>
-        <div className="education-content gap-5">
+    <section id="toAbout" style={{paddingTop: "20%"}} className="container">
+      <h2 className="h2-tag-about">About Me</h2>
+        <div
+          ref={educationContentRef}
+          className="grup-education-div education-content gap-5 animate-top-down"
+        >
           <img
             src={myImage}
             alt="myImage"
@@ -33,7 +64,6 @@ const About = () => {
             Thank you, Emre Kazaz
           </p>
         </div>
-      </div>
     </section>
   );
 };

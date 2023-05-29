@@ -8,8 +8,21 @@ import stockcardImage from "../Images/stock-card-low-resolution-color-logo.png";
 import wooxMarketing from "../Images/marketingLowRez.png";
 import robofriendsImage from "../Images/robofrinedsimage.png";
 import protfolioGif from "../Images/ezgif-3-5370643a50.gif";
+import Modal from "./Modal";
+import "./Modal.css";
+import React, { useState } from "react";
 
 const Card2 = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const handleModalOpen = () => {
+    setModalOpen(true);
+  };
+
+  const handleModalClose = () => {
+    setModalOpen(false);
+  };
+
   return (
     <section style={{ paddingTop: "10%" }} className="container">
       <header className="card-header">My Projects</header>
@@ -113,7 +126,7 @@ const Card2 = () => {
               alt="wooxchatImage"
             />
             <div className="card-body card-color">
-              <h5 className="card-title">Client-Serever Application</h5>
+              <h5 className="card-title">Client-Serever Chat Application</h5>
               <div>
                 <span class="badge rounded-pill text-bg-primary">C#</span>
               </div>
@@ -143,6 +156,7 @@ const Card2 = () => {
         </div>
 
         {/* Flamingo Web Site */}
+        {/*
         <div className="col">
           <div className="card h-100">
             <img
@@ -179,7 +193,7 @@ const Card2 = () => {
             </div>
           </div>
         </div>
-
+/*}
         {/* Online Marketing Full Stack */}
         <div className="col">
           <div className="card h-100">
@@ -189,7 +203,9 @@ const Card2 = () => {
               alt="wooxMarketing"
             />
             <div className="card-body card-color">
-              <h5 className="card-title">Full Stack Online Marketing Web Application</h5>
+              <h5 className="card-title">
+                Full Stack Online Marketing Web Application
+              </h5>
               <div>
                 <span class="badge rounded-pill text-bg-primary">React</span>
                 <span class="badge rounded-pill text-bg-primary">Node.js</span>
@@ -201,15 +217,15 @@ const Card2 = () => {
               >
                 <a
                   className="btn btn-color"
-                  href="https://emrekazaz-hub.github.io/Flamingo2/"
+                  href="#"
                 >
                   Live Page
                 </a>
                 <a
                   className="btn btn-color"
-                  href="https://github.com/emrekazaz-hub/Flamingo2"
+                  href="https://github.com/emrekazaz-hub/e-market-react-app"
                 >
-                  Github Code
+                  Github Frontend Code
                 </a>
               </div>
             </div>
@@ -261,14 +277,21 @@ const Card2 = () => {
             <div className="card-body card-color">
               <h5 className="card-title">RoboFriends</h5>
               <div>
-                <span class="badge rounded-pill text-bg-primary">React</span>
+                <span className="badge rounded-pill text-bg-primary">
+                  React
+                </span>
               </div>
               <p className="card-text">
-                Robo is a robot control system project that offers basic motion
-                controls along with additional features like sensor integration
-                and automated tasks.
+                This is simple application that makes calls, sends requests and
+                receives a response with an api.
               </p>
-              <div style={{paddingTop: "20%"}} className="d-flex justify-content-center gap-2">
+              <div
+                style={{ paddingTop: "60%" }}
+                className="d-flex justify-content-center gap-2"
+              >
+                {/*<button className="btn btn-color" onClick={handleModalOpen}>
+          Modal Aç
+        </button>*/}
                 <a
                   className="btn btn-color"
                   href="https://emrekazaz-hub.github.io/robo/"
@@ -285,6 +308,7 @@ const Card2 = () => {
             </div>
           </div>
         </div>
+        {/*<Modal isOpen={isModalOpen} onClose={handleModalClose} />*/}
 
         {/* FMY PROTFOLIO */}
         <div className="col">

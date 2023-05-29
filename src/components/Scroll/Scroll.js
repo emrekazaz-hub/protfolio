@@ -22,10 +22,16 @@ const Scroll = () => {
 
     for (let i = 0; i < animation_elements.length; i++) {
       const el = animation_elements[i];
-
       observer.observe(el);
     }
+
+    return () => {
+      // İzleyiciyi temizle
+      observer.disconnect();
+    };
   }, []);
+
+  return <div className="scroll-container">Sayfa içeriği...</div>;
 };
 
 export default Scroll;
