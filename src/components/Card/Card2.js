@@ -210,22 +210,38 @@ const Card2 = () => {
                 <span class="badge rounded-pill text-bg-primary">React</span>
                 <span class="badge rounded-pill text-bg-primary">Node.js</span>
               </div>
-              <p className="card-text">Loading...</p>
+              <p className="card-text">
+                Loading...<br></br>
+                The "emarket" project is an application aimed at creating an
+                e-marketplace where users have the ability to search, filter,
+                and sort products by categories. It allows users to view
+                detailed information about products, add desired items to their
+                cart, and facilitates both buying and selling functionalities.
+                The goal of this application is to provide users with a platform
+                to create an e-market where they can buy and sell products,
+                while also offering features such as product search, filtering,
+                sorting, and the ability to add items to their cart.
+              </p>
               <div
-                style={{ paddingTop: "43%" }}
                 className="d-flex justify-content-center gap-2"
               >
                 <a
                   className="btn btn-color"
-                  href="#"
+                  href="https://emrekazaz-hub.github.io/emarket/"
                 >
                   Live Page
                 </a>
                 <a
                   className="btn btn-color"
-                  href="https://github.com/emrekazaz-hub/e-market-react-app"
+                  href="https://github.com/emrekazaz-hub/emarket"
                 >
                   Github Frontend Code
+                </a>
+                <a
+                  className="btn btn-color"
+                  href="https://github.com/emrekazaz-hub/emarketAPI"
+                >
+                  Github Backend Code
                 </a>
               </div>
             </div>
